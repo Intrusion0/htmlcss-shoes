@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,12 @@
 
 /* generali */
 main {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+h2 {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* creazione blocchi */
@@ -41,7 +46,7 @@ main {
 /* centratura e stile testo sotto le immagini */
 .text {
     color: yellow;
-    font-size: 45px;
+    font-size: 32px;
     position: absolute;
     top: 75%;
     left: 50%;
@@ -64,11 +69,12 @@ main {
     display: inline-block;
     width: 40px;
     height: 40px;
-    padding: 3px 0 0 12px;
+    padding: 10px 0 0 13px;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 30px;
+    color: black;
     background-color: white;
     border-radius: 50%;
-    font-size: 25px;
+    font-size: 15px;
     
 }
