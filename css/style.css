@@ -6,10 +6,12 @@
     box-sizing: border-box;
 }
 
+/* generali */
 main {
     font-family: 'Roboto Mono', monospace;
 }
 
+/* creazione blocchi */
 .blocco {
     height: 100vh;
     width: 100%;
@@ -28,6 +30,7 @@ main {
     background-color: rgb(251, 255, 21);
 }
 
+/* centratura immagini scarpe */
 .shoes {
     position: absolute;
     top: 40%;
@@ -35,6 +38,7 @@ main {
     transform: translate(-50%, -50%);
 }
 
+/* centratura e stile testo sotto le immagini */
 .text {
     color: yellow;
     font-size: 45px;
@@ -47,4 +51,24 @@ main {
 
 .text.darkgreen {
     color: rgb(56, 112, 30);
+}
+
+/* inserimento numeri in alto a destra */
+#numbers {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+#numbers a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 3px 0 0 12px;
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 25px;
+    
 }
