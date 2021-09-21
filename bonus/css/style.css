@@ -7,6 +7,10 @@
 }
 
 /* generali */
+html {
+    scroll-behavior: smooth;
+}
+
 main {
     font-family: 'Rubik Mono One', sans-serif;
 }
